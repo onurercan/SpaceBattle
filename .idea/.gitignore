@@ -1,1 +1,3 @@
 *.obj
+# Default ignored files
+/.idea.SpaceshipBattle/.idea/workspace.xml

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$/../Library/Caches/Rider2019.3/extResources" t="IncludeRecursive" />
+    <e p="$PROJECT_DIR$/../Library/Caches/Rider2019.3/resharper-host/local/Transient/ReSharperHost/v193/SolutionCaches/_SpaceshipBattle.-1311738892.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="GalaxyBox2" t="Include">
+          <e p="instructions.txt" t="Include" />
+          <e p="Scripts" t="Include">
+            <e p="examplescene.cs" t="Include" />
+            <e p="MouseLook.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Scenes" t="Include">
+          <e p="ScreenBoundariesOrthographic.cs" t="Include" />
+          <e p="SkyboxRotation.cs" t="Include" />
+        </e>
+        <e p="Spaceships" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="Base" t="Include">
+              <e p="CharacterState.cs" t="Include" />
+              <e p="StateData.cs" t="Include" />
+            </e>
+            <e p="CharacterControl.cs" t="Include" />
+            <e p="Input" t="Include">
+              <e p="FlipDownTracker.cs" t="Include" />
+              <e p="FlipUpTracker.cs" t="Include" />
+              <e p="KeyTracker.cs" t="Include" />
+              <e p="ManuelInput.cs" t="Include" />
+              <e p="PlayerInput.cs" t="Include" />
+            </e>
+            <e p="Manager" t="Include">
+              <e p="HashManager.cs" t="Include" />
+              <e p="Singleton.cs" t="Include" />
+              <e p="VirtualInputManager.cs" t="Include" />
+            </e>
+            <e p="States" t="Include">
+              <e p="AbilityScripts" t="Include">
+                <e p="Movement" t="Include">
+                  <e p="FlipDown.cs" t="Include" />
+                  <e p="FlipUp.cs" t="Include" />
+                  <e p="MoveBackward.cs" t="Include" />
+                  <e p="MoveDown.cs" t="Include" />
+                  <e p="MoveForward.cs" t="Include" />
+                  <e p="MoveUp.cs" t="Include" />
+                </e>
+                <e p="TransitionIndexer" t="Include">
+                  <e p="TransitionCondition.cs" t="Include" />
+                  <e p="TransitionIndexer.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="SpaceshipBattle.sln" t="IncludeFlat" />
+      <e p="Temp/bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
