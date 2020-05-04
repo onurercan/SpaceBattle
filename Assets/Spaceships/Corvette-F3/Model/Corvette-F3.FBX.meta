@@ -3,7 +3,12 @@ guid: 446335d5ca5044289964eea24f57108c
 ModelImporter:
   serializedVersion: 19300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SF_Corvette-F3
+    second: {fileID: 2100000, guid: 6116f322d747c4ebbb980bdd76b30de7, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0

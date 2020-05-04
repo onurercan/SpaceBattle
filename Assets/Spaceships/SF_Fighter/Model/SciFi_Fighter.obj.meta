@@ -3,7 +3,12 @@ guid: c000f5480c5d74f7d84ffdb66a7320e7
 ModelImporter:
   serializedVersion: 19300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SciFi_Fighter_AK5
+    second: {fileID: 2100000, guid: 75d954933a7ed4d059839637c01c8ac7, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
