@@ -17,39 +17,37 @@
           <e p="ScreenBoundariesOrthographic.cs" t="Include" />
           <e p="SkyboxRotation.cs" t="Include" />
         </e>
-        <e p="Spaceships" t="Include">
-          <e p="Scripts" t="Include">
-            <e p="Base" t="Include">
-              <e p="CharacterState.cs" t="Include" />
-              <e p="StateData.cs" t="Include" />
-            </e>
-            <e p="CharacterControl.cs" t="Include" />
-            <e p="Input" t="Include">
-              <e p="FlipDownTracker.cs" t="Include" />
-              <e p="FlipUpTracker.cs" t="Include" />
-              <e p="KeyTracker.cs" t="Include" />
-              <e p="ManuelInput.cs" t="Include" />
-              <e p="PlayerInput.cs" t="Include" />
-            </e>
-            <e p="Manager" t="Include">
-              <e p="HashManager.cs" t="Include" />
-              <e p="Singleton.cs" t="Include" />
-              <e p="VirtualInputManager.cs" t="Include" />
-            </e>
-            <e p="States" t="Include">
-              <e p="AbilityScripts" t="Include">
-                <e p="Movement" t="Include">
-                  <e p="FlipDown.cs" t="Include" />
-                  <e p="FlipUp.cs" t="Include" />
-                  <e p="MoveBackward.cs" t="Include" />
-                  <e p="MoveDown.cs" t="Include" />
-                  <e p="MoveForward.cs" t="Include" />
-                  <e p="MoveUp.cs" t="Include" />
-                </e>
-                <e p="TransitionIndexer" t="Include">
-                  <e p="TransitionCondition.cs" t="Include" />
-                  <e p="TransitionIndexer.cs" t="Include" />
-                </e>
+        <e p="Scripts" t="Include">
+          <e p="Base" t="Include">
+            <e p="CharacterState.cs" t="Include" />
+            <e p="StateData.cs" t="Include" />
+          </e>
+          <e p="CharacterControl.cs" t="Include" />
+          <e p="Input" t="Include">
+            <e p="FlipDownTracker.cs" t="Include" />
+            <e p="FlipUpTracker.cs" t="Include" />
+            <e p="KeyTracker.cs" t="Include" />
+            <e p="ManuelInput.cs" t="Include" />
+            <e p="PlayerInput.cs" t="Include" />
+          </e>
+          <e p="Manager" t="Include">
+            <e p="HashManager.cs" t="Include" />
+            <e p="Singleton.cs" t="Include" />
+            <e p="VirtualInputManager.cs" t="Include" />
+          </e>
+          <e p="States" t="Include">
+            <e p="AbilityScripts" t="Include">
+              <e p="Movement" t="Include">
+                <e p="FlipDown.cs" t="Include" />
+                <e p="FlipUp.cs" t="Include" />
+                <e p="MoveBackward.cs" t="Include" />
+                <e p="MoveDown.cs" t="Include" />
+                <e p="MoveForward.cs" t="Include" />
+                <e p="MoveUp.cs" t="Include" />
+              </e>
+              <e p="TransitionIndexer" t="Include">
+                <e p="TransitionCondition.cs" t="Include" />
+                <e p="TransitionIndexer.cs" t="Include" />
               </e>
             </e>
           </e>
