@@ -73,6 +73,7 @@
      <Compile Include="Assets\Scripts\Manager\HashManager.cs" />
      <Compile Include="Assets\Scripts\Manager\Singleton.cs" />
      <Compile Include="Assets\Scripts\Manager\VirtualInputManager.cs" />
+     <Compile Include="Assets\Scripts\ObjectPool.cs" />
      <Compile Include="Assets\Scripts\ProjectileMove.cs" />
      <Compile Include="Assets\Scripts\States\AbilityScripts\Movement\FlipDown.cs" />
      <Compile Include="Assets\Scripts\States\AbilityScripts\Movement\FlipUp.cs" />

@@ -16,7 +16,13 @@ public class Weapon : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Instantiate(projectile, firepoint.position, Quaternion.identity);
+            var simpleProjectile = ObjectPool.SharedInstance.GetPooledObject();
+            if (simpleProjectile != null)
+            {
+                simpleProjectile.transform.position = firepoint.position;
+                simpleProjectile.transform.rotation = Quaternion.identity;
+                simpleProjectile.SetActive(true);
+            }
         }
     }
 }

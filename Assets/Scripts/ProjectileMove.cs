@@ -19,9 +19,10 @@ public class ProjectileMove : MonoBehaviour
     {
         transform.Translate(Vector3.forward * movementSpeed * Time.deltaTime);
 
-        if (transform.position.z > _screenBoundaries.clampMaxZ + projectTileLength || transform.position.z  < _screenBoundaries.clampMinZ - projectTileLength)
+        if (transform.position.z > _screenBoundaries.clampMaxZ + projectTileLength || 
+            transform.position.z  < _screenBoundaries.clampMinZ - projectTileLength)
         {
-            Destroy(gameObject);
+            gameObject.SetActive(false);
         }
     }
 }
