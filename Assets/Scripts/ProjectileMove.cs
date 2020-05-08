@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class ProjectileMove : MonoBehaviour
 {
-    public float movementSpeed = 250;
+    public float movementSpeed = 200;
 
     void FixedUpdate()
     {

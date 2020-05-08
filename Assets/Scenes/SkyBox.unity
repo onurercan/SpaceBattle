@@ -537,6 +537,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 329265345}
+    - target: {fileID: 1863444509196205216, guid: 0fe29b922cc72454086900b5188d2c60,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1863444509196205217, guid: 0fe29b922cc72454086900b5188d2c60,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -596,6 +601,11 @@ PrefabInstance:
         type: 3}
       propertyPath: rotationSpeed
       value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1863444509196205218, guid: 0fe29b922cc72454086900b5188d2c60,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1863444509196205220, guid: 0fe29b922cc72454086900b5188d2c60,
         type: 3}
