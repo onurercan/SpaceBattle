@@ -16,11 +16,14 @@ public class Weapon : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            //get object via facing position
             var simpleProjectile = ObjectPool.SharedInstance.GetPooledObject();
             if (simpleProjectile != null)
             {
                 simpleProjectile.transform.position = firepoint.position;
                 simpleProjectile.transform.rotation = Quaternion.identity;
+                //change angles for facing position
+                //simpleProjectile.transform.eulerAngles = new Vector3(firepoint.position.x,180,firepoint.position.z);
                 simpleProjectile.SetActive(true);
             }
         }
