@@ -5004,3 +5004,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementSpeed: 200
+  projectTileLength: 4

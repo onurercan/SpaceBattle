@@ -14,7 +14,6 @@
           </e>
         </e>
         <e p="Scenes" t="Include">
-          <e p="ScreenBoundaries.cs" t="Include" />
           <e p="ScreenBoundariesOrthographic.cs" t="Include" />
           <e p="SkyboxRotation.cs" t="Include" />
         </e>
