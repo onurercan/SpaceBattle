@@ -35,6 +35,7 @@
             <e p="Singleton.cs" t="Include" />
             <e p="VirtualInputManager.cs" t="Include" />
           </e>
+          <e p="ProjectileMove.cs" t="Include" />
           <e p="States" t="Include">
             <e p="AbilityScripts" t="Include">
               <e p="Movement" t="Include">
@@ -51,6 +52,7 @@
               </e>
             </e>
           </e>
+          <e p="Weapon.cs" t="Include" />
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />

@@ -73,6 +73,7 @@
      <Compile Include="Assets\Scripts\Manager\HashManager.cs" />
      <Compile Include="Assets\Scripts\Manager\Singleton.cs" />
      <Compile Include="Assets\Scripts\Manager\VirtualInputManager.cs" />
+     <Compile Include="Assets\Scripts\ProjectileMove.cs" />
      <Compile Include="Assets\Scripts\States\AbilityScripts\Movement\FlipDown.cs" />
      <Compile Include="Assets\Scripts\States\AbilityScripts\Movement\FlipUp.cs" />
      <Compile Include="Assets\Scripts\States\AbilityScripts\Movement\MoveBackward.cs" />
@@ -81,6 +82,7 @@
      <Compile Include="Assets\Scripts\States\AbilityScripts\Movement\MoveUp.cs" />
      <Compile Include="Assets\Scripts\States\AbilityScripts\TransitionIndexer\TransitionCondition.cs" />
      <Compile Include="Assets\Scripts\States\AbilityScripts\TransitionIndexer\TransitionIndexer.cs" />
+     <Compile Include="Assets\Scripts\Weapon.cs" />
      <None Include="Assets\GalaxyBox2\instructions.txt" />
  <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
  <HintPath>/Users/oercan/SpaceshipBattle/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
