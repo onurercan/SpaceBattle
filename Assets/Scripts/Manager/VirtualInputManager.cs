@@ -7,8 +7,8 @@ namespace Spaceships.Scripts.Manager
     {
         public bool moveUp;
         public bool moveDown;
-        public bool moveForward;
-        public bool moveBackward;
+        public bool moveRight;
+        public bool moveLeft;
 
         private PlayerInput _playerInput;
 

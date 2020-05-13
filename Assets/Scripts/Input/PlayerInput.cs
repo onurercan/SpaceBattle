@@ -9,8 +9,8 @@ namespace Spaceships.Scripts.Input
         {
             VirtualInputManager.Instance.moveUp = UnityEngine.Input.GetKey(KeyCode.W);
             VirtualInputManager.Instance.moveDown = UnityEngine.Input.GetKey(KeyCode.S);
-            VirtualInputManager.Instance.moveForward = UnityEngine.Input.GetKey(KeyCode.D);
-            VirtualInputManager.Instance.moveBackward = UnityEngine.Input.GetKey(KeyCode.A);
+            VirtualInputManager.Instance.moveRight = UnityEngine.Input.GetKey(KeyCode.D);
+            VirtualInputManager.Instance.moveLeft = UnityEngine.Input.GetKey(KeyCode.A);
         }
     }
 }
