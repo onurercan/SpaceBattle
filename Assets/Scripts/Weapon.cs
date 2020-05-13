@@ -1,4 +1,5 @@
 ﻿using System;
+using Spaceships.Scripts;
 using UnityEngine;
 
 public class Weapon : MonoBehaviour
@@ -6,10 +7,13 @@ public class Weapon : MonoBehaviour
     private Transform firepoint;
 
     public GameObject projectile;
+
+    public CharacterControl characterControl;
     // Update is called once per frame
     void Awake()
     {
         firepoint = transform.Find("FirePoint");
+        characterControl = GetComponent<CharacterControl>();
     }
 
     private void Update()
@@ -23,7 +27,8 @@ public class Weapon : MonoBehaviour
                 simpleProjectile.transform.position = firepoint.position;
                 simpleProjectile.transform.rotation = Quaternion.identity;
                 //change angles for facing position
-                //simpleProjectile.transform.eulerAngles = new Vector3(firepoint.position.x,180,firepoint.position.z);
+                if(characterControl.faceLeft)
+                    simpleProjectile.transform.eulerAngles = new Vector3(firepoint.position.x,180,firepoint.position.z);
                 simpleProjectile.SetActive(true);
             }
         }

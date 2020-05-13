@@ -65,6 +65,8 @@
      <Compile Include="Assets\Scripts\Base\CharacterState.cs" />
      <Compile Include="Assets\Scripts\Base\StateData.cs" />
      <Compile Include="Assets\Scripts\CharacterControl.cs" />
+     <Compile Include="Assets\Scripts\Input\FaceLeftTracker.cs" />
+     <Compile Include="Assets\Scripts\Input\FaceRightTracker.cs" />
      <Compile Include="Assets\Scripts\Input\FlipDownTracker.cs" />
      <Compile Include="Assets\Scripts\Input\FlipUpTracker.cs" />
      <Compile Include="Assets\Scripts\Input\KeyTracker.cs" />
@@ -81,6 +83,7 @@
      <Compile Include="Assets\Scripts\States\AbilityScripts\Movement\MoveDown.cs" />
      <Compile Include="Assets\Scripts\States\AbilityScripts\Movement\MoveForward.cs" />
      <Compile Include="Assets\Scripts\States\AbilityScripts\Movement\MoveUp.cs" />
+     <Compile Include="Assets\Scripts\States\AbilityScripts\Movement\MovementBase.cs" />
      <Compile Include="Assets\Scripts\States\AbilityScripts\TransitionIndexer\TransitionCondition.cs" />
      <Compile Include="Assets\Scripts\States\AbilityScripts\TransitionIndexer\TransitionIndexer.cs" />
      <Compile Include="Assets\Scripts\Weapon.cs" />

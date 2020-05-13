@@ -24,6 +24,8 @@
           </e>
           <e p="CharacterControl.cs" t="Include" />
           <e p="Input" t="Include">
+            <e p="FaceLeftTracker.cs" t="Include" />
+            <e p="FaceRightTracker.cs" t="Include" />
             <e p="FlipDownTracker.cs" t="Include" />
             <e p="FlipUpTracker.cs" t="Include" />
             <e p="KeyTracker.cs" t="Include" />
@@ -45,6 +47,7 @@
                 <e p="MoveBackward.cs" t="Include" />
                 <e p="MoveDown.cs" t="Include" />
                 <e p="MoveForward.cs" t="Include" />
+                <e p="MovementBase.cs" t="Include" />
                 <e p="MoveUp.cs" t="Include" />
               </e>
               <e p="TransitionIndexer" t="Include">

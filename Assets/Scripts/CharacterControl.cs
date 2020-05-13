@@ -1,4 +1,5 @@
-﻿using Spaceships.Scripts.Base;
+﻿using System;
+using Spaceships.Scripts.Base;
 using UnityEngine;
 
 namespace Spaceships.Scripts
@@ -18,12 +19,13 @@ namespace Spaceships.Scripts
         public float flipForce = 55;
 
         private Rigidbody _rigidBody;
+        public bool faceLeft;
 
         private void Awake()
         {
             _rigidBody = GetComponent<Rigidbody>();
         }
-        
+
         public void CacheCharacterControl(Animator animator)
         {
             var arr = animator.GetBehaviours<CharacterState>();
@@ -36,12 +38,23 @@ namespace Spaceships.Scripts
 
         public void MoveForward()
         {
-            _rigidBody.AddForce(transform.forward * speed, ForceMode.Acceleration);
+            var movementSpeed = speed;
+            if (faceLeft)
+                movementSpeed = speed * -1;
+            _rigidBody.AddForce(transform.forward * movementSpeed, ForceMode.Acceleration);
+        }
+
+        public void ChangeRotation(float rotation)
+        {
+            transform.rotation = Quaternion.Euler(0,rotation,0);
         }
 
         public void MoveBackward()
         {
-            _rigidBody.AddForce(transform.forward * -speed, ForceMode.Acceleration);
+            var movementSpeed = speed;
+            if (faceLeft)
+                movementSpeed = speed * -1;
+            _rigidBody.AddForce(transform.forward * -movementSpeed, ForceMode.Acceleration);
         }
 
         public void MoveUp()

@@ -5,12 +5,14 @@ using UnityEngine;
 namespace Spaceships.Scripts.States.AbilityScripts.Movement
 {
     [CreateAssetMenu(fileName = "New State", menuName = "SpaceBattle/AbilityData/MoveBackward")]
-    public class MoveBackward : StateData
+    public class MoveBackward : MovementBase
     {
         public bool justUpdatePhysic = false;
 
         public override void UpdateAbility(CharacterState characterState, Animator animator, AnimatorStateInfo stateInfo)
         {
+            ControlFacing(characterState.CharacterControl);
+            
             if (justUpdatePhysic && characterState.CharacterControl.moveBackward)
             {
                 characterState.CharacterControl.MoveBackward();

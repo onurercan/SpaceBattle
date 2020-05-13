@@ -8,7 +8,11 @@ namespace Spaceships.Scripts.Base
     {
       
     }
-    public abstract void UpdateAbility(CharacterState characterState, Animator animator, AnimatorStateInfo stateInfo);
+
+    public virtual void UpdateAbility(CharacterState characterState, Animator animator, AnimatorStateInfo stateInfo)
+    {
+      
+    }
 
     public virtual void OnExit(CharacterState characterState, Animator animator, AnimatorStateInfo stateInfo)
     {
