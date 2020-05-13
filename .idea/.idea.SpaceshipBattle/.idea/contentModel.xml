@@ -44,10 +44,10 @@
               <e p="Movement" t="Include">
                 <e p="FlipDown.cs" t="Include" />
                 <e p="FlipUp.cs" t="Include" />
-                <e p="MoveBackward.cs" t="Include" />
                 <e p="MoveDown.cs" t="Include" />
-                <e p="MoveForward.cs" t="Include" />
+                <e p="MoveLeft.cs" t="Include" />
                 <e p="MovementBase.cs" t="Include" />
+                <e p="MoveRight.cs" t="Include" />
                 <e p="MoveUp.cs" t="Include" />
               </e>
               <e p="TransitionIndexer" t="Include">

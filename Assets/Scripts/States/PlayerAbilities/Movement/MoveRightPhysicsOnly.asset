@@ -10,6 +10,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 87b9b7e2044a243ecac4841912f0bf40, type: 3}
-  m_Name: MoveForward
+  m_Name: MoveRightPhysicsOnly
   m_EditorClassIdentifier: 
-  justUpdatePhysic: 0
+  justUpdatePhysic: 1

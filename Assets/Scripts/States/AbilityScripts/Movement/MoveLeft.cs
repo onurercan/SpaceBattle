@@ -5,7 +5,7 @@ using UnityEngine;
 namespace Spaceships.Scripts.States.AbilityScripts.Movement
 {
     [CreateAssetMenu(fileName = "New State", menuName = "SpaceBattle/AbilityData/MoveBackward")]
-    public class MoveBackward : MovementBase
+    public class MoveLeft : MovementBase
     {
         public bool justUpdatePhysic = false;
 
@@ -13,19 +13,19 @@ namespace Spaceships.Scripts.States.AbilityScripts.Movement
         {
             ControlFacing(characterState.CharacterControl);
             
-            if (justUpdatePhysic && characterState.CharacterControl.moveBackward)
+            if (justUpdatePhysic && characterState.CharacterControl.moveLeft)
             {
-                characterState.CharacterControl.MoveBackward();
+                characterState.CharacterControl.MoveLeft();
                 return;
             }
-            if (characterState.CharacterControl.moveBackward)
+            if (characterState.CharacterControl.moveLeft)
             {
-                animator.SetBool(HashManager.Instance.MoveBackwardId, true);
-                characterState.CharacterControl.MoveBackward();
+                animator.SetBool(HashManager.Instance.MoveLeftId, true);
+                characterState.CharacterControl.MoveLeft();
             }
             else
             {
-                animator.SetBool(HashManager.Instance.MoveBackwardId, false);
+                animator.SetBool(HashManager.Instance.MoveLeftId, false);
             }
         }
     }

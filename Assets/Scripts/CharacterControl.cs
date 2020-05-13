@@ -7,8 +7,8 @@ namespace Spaceships.Scripts
     public class CharacterControl : MonoBehaviour
     {
         [Header("Abilities")] 
-        public bool moveBackward;
-        public bool moveForward;
+        public bool moveLeft;
+        public bool moveRight;
         public bool moveDown;
         public bool moveUp;
         public bool flipUp;
@@ -36,7 +36,7 @@ namespace Spaceships.Scripts
             }
         }
 
-        public void MoveForward()
+        public void MoveRight()
         {
             var movementSpeed = speed;
             if (faceLeft)
@@ -49,7 +49,7 @@ namespace Spaceships.Scripts
             transform.rotation = Quaternion.Euler(0,rotation,0);
         }
 
-        public void MoveBackward()
+        public void MoveLeft()
         {
             var movementSpeed = speed;
             if (faceLeft)

@@ -8,17 +8,17 @@ namespace Spaceships.Scripts.Manager
         {
             MoveUpId = Animator.StringToHash("MoveUp");
             MoveDownId = Animator.StringToHash("MoveDown");
-            MoveForwardId = Animator.StringToHash("MoveForward");
-            MoveBackwardId = Animator.StringToHash("MoveBackward");
+            MoveRightId = Animator.StringToHash("MoveRight");
+            MoveLeftId = Animator.StringToHash("MoveLeft");
             TransitionIndexId = Animator.StringToHash("TransitionIndex");
         }
 
-        public int MoveForwardId { get; private set; }
+        public int MoveRightId { get; private set; }
 
         public int MoveDownId { get; private set; }
 
         public int MoveUpId { get; private set; }
-        public int MoveBackwardId { get;private set; }
+        public int MoveLeftId { get;private set; }
         public int TransitionIndexId { get; private set; }
     }
 }

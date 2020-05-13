@@ -79,9 +79,9 @@
      <Compile Include="Assets\Scripts\ProjectileMove.cs" />
      <Compile Include="Assets\Scripts\States\AbilityScripts\Movement\FlipDown.cs" />
      <Compile Include="Assets\Scripts\States\AbilityScripts\Movement\FlipUp.cs" />
-     <Compile Include="Assets\Scripts\States\AbilityScripts\Movement\MoveBackward.cs" />
      <Compile Include="Assets\Scripts\States\AbilityScripts\Movement\MoveDown.cs" />
-     <Compile Include="Assets\Scripts\States\AbilityScripts\Movement\MoveForward.cs" />
+     <Compile Include="Assets\Scripts\States\AbilityScripts\Movement\MoveLeft.cs" />
+     <Compile Include="Assets\Scripts\States\AbilityScripts\Movement\MoveRight.cs" />
      <Compile Include="Assets\Scripts\States\AbilityScripts\Movement\MoveUp.cs" />
      <Compile Include="Assets\Scripts\States\AbilityScripts\Movement\MovementBase.cs" />
      <Compile Include="Assets\Scripts\States\AbilityScripts\TransitionIndexer\TransitionCondition.cs" />

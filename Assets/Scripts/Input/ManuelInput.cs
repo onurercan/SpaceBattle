@@ -21,8 +21,8 @@ namespace Spaceships.Scripts.Input
         // Update is called once per frame
         void Update()
         {
-            CharacterControl.moveBackward = VirtualInputManager.Instance.moveBackward;
-            CharacterControl.moveForward = VirtualInputManager.Instance.moveForward;
+            CharacterControl.moveLeft = VirtualInputManager.Instance.moveLeft;
+            CharacterControl.moveRight = VirtualInputManager.Instance.moveRight;
             CharacterControl.moveDown = VirtualInputManager.Instance.moveDown;
             CharacterControl.moveUp = VirtualInputManager.Instance.moveUp;
         
