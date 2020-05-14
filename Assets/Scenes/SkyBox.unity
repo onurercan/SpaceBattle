@@ -657,6 +657,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ObjectPool
       objectReference: {fileID: 0}
+    - target: {fileID: 8307134233625862594, guid: 4522464a7d9224e1c9372a5565f12b70,
+        type: 3}
+      propertyPath: pooledObjects.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8307134233625862595, guid: 4522464a7d9224e1c9372a5565f12b70,
         type: 3}
       propertyPath: m_LocalPosition.x
