@@ -26,7 +26,7 @@ public class Weapon : MonoBehaviour
                 simpleProjectile.transform.rotation = Quaternion.identity;
                 //change angles for facing position
                 if(_characterControl.faceLeft)
-                    simpleProjectile.transform.eulerAngles = new Vector3(firepoint.position.x,180,firepoint.position.z);
+                    simpleProjectile.transform.eulerAngles = new Vector3(firepoint.position.x,180, firepoint.position.z);
                 simpleProjectile.SetActive(true);
             }
         }
